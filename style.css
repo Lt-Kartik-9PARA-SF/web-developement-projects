@@ -1,0 +1,102 @@
+body{
+    color: rgb(254, 254, 255);
+background-image: url('siteBackground2.jpg')
+
+
+}
+
+nav a{ 
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+
+}
+nav a:hover{
+    color: rgb(95, 224, 9);
+    transition: 0.7s;
+}
+#topNavBar{
+    background-color:rgba(3, 3, 3, 0.973);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    align-items:left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    height:160px;
+}
+
+#header{
+    text-align: left;
+    background-color:rgb(29, 28, 28);
+    border-color: darkblue;
+}
+#disclaimer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 20%;
+    color:khaki;
+    overflow-wrap: normal;
+}
+#mainPageDiv{
+    width: 50%;
+    height: 500px;
+    overflow: auto;
+    background-color: aliceblue;
+    display: inline-block;
+    background-image: url('servicesBg.jpg');
+    
+}
+#mainPageDiv2{
+    width: 50%;
+    height: 500px;
+    overflow-wrap: normal;
+    background-image: url('trainerBg.jpg');
+    background-size: cover;
+   float: right;
+}
+#plansButton{
+    margin-left: 290px;
+    margin-top: 250px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color:rgb(95, 224, 9);
+    font-size: large;
+}
+#trainersButton{
+    margin-left: 290px;
+    margin-top: 250px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: large;
+    background-color: rgb(95, 224, 9);
+}
+ #trainersButton:hover{
+    background-color: gold;
+    transition: 0.7s;
+}
+#plansButton:hover{
+    background-color: gold;
+    transition: 0.7s;
+}
+#logo{
+    margin-top: 50px;
+}
+fieldset{
+ margin: 2em 0;
+ padding: 1em 2em;
+ border: solid 2px beige;
+ border-radius: 6px;
+ min-width: 200px;
+}
+legend{
+    font-size: 1.5em;
+    padding: 0.25em;
+    color: antiquewhite;
+}
+form{
+    color: black;
+    background-color:grey;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div id="siteName">
+                S.H.A.R.K
+        </div>
+    </header>
+    <nav id="topNavBar">
+        <img src="finalLogo.png" alt="logo" width="80px">
+        <a href="index.html">Home</a>
+         <a href="services.html">Services</a>
+         <a href="ourTeam.html">Our Team</a>
+        <a href ="contactUs.html">Contact us</a>
+    </nav>
+    <form action="">
+        <fieldset>
+        <legend>Contact Us</legend>
+        <h3>Information</h3>
+        <p style="color:whitesmoke ;">You can contact us on <b>XXXXXXXXXX</b> or fill the form and our team will get in touch with You</p>
+        <p>Name : <input type="text" name="name" required></p>
+        <p>
+            <legend>Gender</legend>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+        </p>
+        <p>Address : <textarea name="address" id="addressInput" cols="100" rows="5"></textarea></p>
+        <p>Email : <input type="email" name="email" id="email"> </p>
+        <p>Contact : <input type="tel" name="mobileNo" id="mobileNo" required maxlength="10"></p>
+        <p>Select Training type :
+            <select name="serviceOptions" id="serviceType">
+                <option value="">--Select Required Training--</option>
+                <option value="homePt">Home PT</option>
+                <option value="onlinePt">Online PT</option>
+            </select>
+            <input type="submit" value="Submit">
+            <p style="color:royalblue ;">please note currently we are only serving in Indiapuram , Vaishali , Kaushambi , Vasundhara , Dilshad Garden , Raj nagar , Raj Nagar Extn. , Kavinagar</p>
+            
+        </p>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
